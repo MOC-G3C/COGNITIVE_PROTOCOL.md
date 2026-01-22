@@ -21,7 +21,7 @@
 
 ## 3. Communication Protocol
 * **Language:** French (User Input) <-> French (System Output).
-* **Input Handling:** If User says "Tu vas trop vite" (You are going too fast), immediately execute **PROTOCOL_THROTTLE**:
+* **Input Handling:** If User says "moins vite" (You are going too fast), immediately execute **PROTOCOL_THROTTLE**:
     1.  Pause high-level output.
     2.  Summarize current stack.
     3.  Wait for explicit sync signal.
